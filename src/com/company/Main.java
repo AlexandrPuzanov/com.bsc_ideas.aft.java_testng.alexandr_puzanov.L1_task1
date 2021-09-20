@@ -2,18 +2,11 @@
 package com.company;
 
 import java.util.Arrays;
-import java.util.Collections;
+
 
 public class Main {
 
     public static void main(String[] args) {
-
-        // Math.random()*20 - 10
-
-
-        // write your code here
-        // int a = 25;
-        //int[] array = new int[]{-10, -9, -8, -7, -5, -5, -5, -3, -2, -1, 1, 2, 3, 4, -5, 7, 7, 8, 7, 7};
 
 
         int sum = 0;
@@ -23,14 +16,8 @@ public class Main {
         int max1 = 0;
         double summ2 = 0;
         double summ3 = 0;
-
         double sred = 0;
-        int pred = 0;
-        int pred1 = 0;
-        int povt = 0;
 
-
-        //
 
         //В массиве целых чисел заменить нулями отрицательные элементы
         System.out.println("замена нулями отрицательных элементов");
@@ -63,10 +50,9 @@ public class Main {
                 array1[i] = 0;
             }
 
-            //System.out.println(Arrays.toString(array));
         }
         System.out.println(Arrays.toString(array1) + "массив, где нечетные числа заменены нулями");
-//В массиве целых чисел определить сумму элементов, состоящих на чётных позициях
+        //В массиве целых чисел определить сумму элементов, состоящих на чётных позициях
 
         System.out.println("В массиве целых чисел определить сумму элементов, состоящих на чётных позициях");
         int array2[] = new int[20];
@@ -152,8 +138,7 @@ public class Main {
 
         System.out.println(Arrays.toString(array4) + "исходный массив");
         for (int i = 0; i < array4.length; i++) {
-            if (array4[i] < min2)
-                min2 = array4[i];
+            if (array4[i] < min2) min2 = array4[i];
             summ2 = summ2 + array4[i];
             summ3 = summ2 / array4.length;
             sred = summ3 - min2;
@@ -191,8 +176,6 @@ public class Main {
 
         System.out.println(Arrays.toString(array6) + "исходный массив");
         int povtor = 0;
-
-
         for (int i = 0; i < array6.length; i++) {
             for (int j = i + 1; j < array6.length; j++) {
                 if (array6[i] < 0) {
@@ -212,10 +195,7 @@ public class Main {
                     newpovtor[povtor1] = array6[i];
                     povtor1++;
                 }
-
             }
-
-
         }
         System.out.println(Arrays.toString(newpovtor));*/
 

@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/com.bsc_ideas.aft.java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/com.bsc_ideas.aft.java_testn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/com.bsc_ideas.aft.java_testng.alexandr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/com.bsc_ideas.aft.java_testng.alexandr_puzanov.L1_task3" vcs="Git" />
   </component>
 </project>
